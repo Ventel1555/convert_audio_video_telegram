@@ -1,6 +1,8 @@
 import telebot
 import moviepy.editor
-bot = telebot.TeleBot('5389301182:AAHTOnPtRssZck8z_B0Qu5tFzqzBMf_lPOg')
+import pathlib
+from pathlib import Path
+bot = telebot.TeleBot('TOKEN')
 
 @bot.message_handler(content_types=['video'])
 def video_to_audio(message):
