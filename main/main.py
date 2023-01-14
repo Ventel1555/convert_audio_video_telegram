@@ -1,5 +1,7 @@
 import telebot
 import moviepy.editor
+import pathlib
+from pathlib import Path
 bot = telebot.TeleBot('TOKEN')
 
 @bot.message_handler(content_types=['video'])
