@@ -38,10 +38,10 @@ def video_to_audio(message):
 @bot.message_handler(content_types = ['text'])
 def bot_message(message):
     if message.chat.type == 'private':
-        bot.send_message(message.chat.id, "Отправьте картинку.")
+        bot.send_message(message.chat.id, "Отправьте видео.")
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.send_message(message.chat.id, "Отправьте картинку.")
+    bot.send_message(message.chat.id, "Отправьте видео.")
 
 bot.polling(none_stop=True, interval=0)
