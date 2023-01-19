@@ -1,0 +1,2 @@
+This folder contains files, both video and audio.
+However, you should empty this folder, for about 2-3 days, for example.
